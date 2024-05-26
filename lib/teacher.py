@@ -4,6 +4,7 @@ from user import User
 
 import random
 
+
 class Teacher(User):
     def __init__(self, last_name, first_name):
         super().__init__(last_name, first_name)

@@ -20,9 +20,5 @@ class Student(User):
     def learn(self,knowledge):
         self.knowledge.append(knowledge)
     
-        #return self.knowledge
-
-#Student1 = Student()
-#Student.teach(knowledge)
 
         
